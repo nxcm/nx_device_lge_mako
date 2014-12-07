@@ -15,6 +15,7 @@
 #
 
 import init.mako.usb.rc
+import init.mako.usbdisk.rc
 import init.mako_svelte.rc
 import init.mako_tiny.rc
 
