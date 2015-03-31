@@ -26,9 +26,4 @@
         android:primary="true"
         android:emulated="true"
         android:mtpReserve="100" />
-    <!-- external usb storage -->
-    <storage android:mountPoint="/storage/usbdisk0"
-        android:storageDescription="@string/storage_usb"
-        android:primary="false"
-        android:removable="true" />
 </StorageList>
