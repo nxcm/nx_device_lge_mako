@@ -285,11 +285,6 @@ on post-fs-data
     # disable diag port
     rm /dev/diag
 
-    # Hardware tunables
-    chown root system /sys/android_touch/doubletap2wake
-    chmod 0664 /sys/android_touch/doubletap2wake
-    restorecon /sys/android_touch/doubletap2wake
-
 on charger
     # Enable Power modes and set the CPU Freq Sampling rates
     write /sys/module/rpm_resources/enable_low_power/L2_cache 1
